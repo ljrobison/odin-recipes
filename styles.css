@@ -11,8 +11,6 @@ body {
 
 p {
   color: black;
-  text-align: left;
-  direction: ltr;
 }
 
 li {
@@ -37,13 +35,9 @@ li {
   background: #f2f2f2;
 }
 
-.section {
-  float: left;
-  padding: 20px;
-  min-height: 170px;
-  box-sizing: border-box;
-  background-color: #f2f2f2;
-  width: 100%;
+#parent {
+  overflow: hidden;
+  padding: 10px 20px;
 }
 
 .clearfix:after {
@@ -56,29 +50,18 @@ li {
 
 .child {
   float: left;
-  text-align: center;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: aqua;
-  width: 450px;
-}
-
-.child2 {
-  float: left;
-  text-align: center;
-  padding: 0px;
-  background-color: white;
+  margin: 10px 20px;
+  border: solid;
+  border-color: black;
 }
 
 img.child {
   height: 300px;
-  width: fit-content;
+  border: none;
 }
 
-div.child {
-  width: 15%;
-  text-align: center;
-}
-
-p.child {
+.center {
   text-align: center;
 }

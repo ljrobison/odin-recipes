@@ -11,55 +11,63 @@ body {
 
 p {
   color: black;
+  margin: 5px;
 }
 
 li {
   list-style-type: square;
-  display: inline;
-  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  list-style: inside;
 }
 
+ul {
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  list-style: inside;
+}
 /* Class Selectors */
 
 .header {
   padding: 10px 20px;
-  background: #acb3b9;
+  background: #0077b6;
+  color: #f2f2f2;
 }
 
 .header h1 {
   font-size: 24px;
 }
 
+.footer {
+  padding: 10px 20px;
+  background: #0077b6;
+  color: #f2f2f2;
+}
+
 .container {
   width: 100%;
-  background: #f2f2f2;
+  background: #90e0ef;
 }
 
-#parent {
+.parent {
   overflow: hidden;
-  padding: 10px 20px;
-}
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+  margin: auto;
+  text-align: center;
 }
 
 .child {
   float: left;
-  padding: 10px 20px;
-  background-color: aqua;
-  margin: 10px 20px;
+  background-color: #caf0f8;
+  margin: 20px 20px;
   border: solid;
   border-color: black;
 }
 
 img.child {
   height: 300px;
-  border: none;
+  margin-bottom: 5px;
+  margin-top: 15px;
 }
 
 .center {

@@ -62,12 +62,14 @@ ul {
   margin: 20px 20px;
   border: solid;
   border-color: black;
+  border-radius: 10px;
 }
 
 img.child {
   height: 300px;
   margin-bottom: 5px;
   margin-top: 15px;
+  border-radius: 0px;
 }
 
 .center {

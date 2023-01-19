@@ -93,6 +93,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 10px;
 }
 
 h1,
@@ -133,4 +134,13 @@ li {
 .card-link:hover a {
   transform: scale(1.1);
   background-color: var(--primary-color);
+}
+
+.recipe-title {
+  text-align: left;
+}
+
+.recipe-subtitle {
+  text-align: left;
+  margin-bottom: 2em;
 }

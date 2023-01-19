@@ -35,6 +35,12 @@ body {
   margin-top: 20px;
 }
 
+.recipe-details {
+  padding: 1.5rem;
+  background-color: #f5f6ea;
+  margin: 3rem;
+}
+
 h1,
 h2 {
   text-align: center;

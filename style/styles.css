@@ -107,17 +107,17 @@ h2 {
   grid-row: 1/2;
 }
 
-ul,
-ol {
-  margin: 20px 0;
-  padding: 0 20px;
-  list-style: none;
+ul {
+  margin: 10px 0;
   flex-basis: 100%;
+  list-style-position: inside;
 }
 
 li {
   margin: 10px 0;
-  color: var(--text-color-light);
+  color: var(--text-color);
+  list-style-position: inside;
+  text-align: left;
 }
 
 .card-link a {

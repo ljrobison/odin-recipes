@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
 :root {
-  --primary-color: #1abc9c;
-  --secondary-color: #34495e;
+  --primary-color: #ff6b6b;
+  --secondary-color: #ffa600;
   --tertiary-color: #f7f7f7;
   --text-color: #2c3e50;
   --text-color-light: #bdc3c7;
@@ -129,4 +131,20 @@ button:hover {
 .card-description p,
 .card-link a {
   margin: 0;
+}
+
+.heading {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+}
+.heading h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.footer {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
 }

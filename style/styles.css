@@ -14,10 +14,6 @@ body {
   padding: 0;
   background-color: var(--tertiary-color);
   color: var(--text-color);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 20px;
 }
 
 .card {
@@ -98,6 +94,7 @@ body {
   height:100vh;
 }
 
+
 h1,
 h2 {
   text-align: center;
@@ -105,8 +102,6 @@ h2 {
   color: var(--primary-color);
   flex-basis: 100%;
   text-transform: uppercase;
-  grid-column: 2/3;
-  grid-row: 1/2;
 }
 
 ul {
